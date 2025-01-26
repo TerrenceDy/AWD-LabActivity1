@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    color: #00509e;
+}
+form {
+    background-color: #e6f7ff;
+    border: 4px solid #00509e;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #00509e;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #b3d9ff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button {
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #003f7d;
+}
+#output {
+    margin-top: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #00509e;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ul {
+    padding-left: 20px;
+}
+a{
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #003f7d;
+}
+nav {
+    width: 100%;
+    background-color: #00509e;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+body{
+    background-image: url(../../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
